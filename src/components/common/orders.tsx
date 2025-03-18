@@ -23,6 +23,7 @@ export const Orders: FC<Props> = ({ orders, className }) => {
             duration: 0.1,
             delay: index * 0.05,
           }}
+          className="md:transition md:duration-400 md:hover:scale-[103%]"
         >
           <Order data={order} />
         </motion.div>
