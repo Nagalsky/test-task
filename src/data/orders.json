@@ -1,0 +1,84 @@
+{
+  "orders": [
+    {
+      "id": "15325",
+      "date": "12.06.2024",
+      "status": "success",
+      "gameName": "Ernardd",
+      "gameId": "1523523623",
+      "amount": "$153.26"
+    },
+    {
+      "id": "15326",
+      "date": "13.06.2024",
+      "status": "success",
+      "gameName": "Skyforge",
+      "gameId": "1523587421",
+      "amount": "$47.99"
+    },
+    {
+      "id": "15327",
+      "date": "13.06.2024",
+      "status": "failed",
+      "gameName": "Valoria",
+      "gameId": "1523598745",
+      "amount": "$29.99"
+    },
+    {
+      "id": "15328",
+      "date": "14.06.2024",
+      "status": "success",
+      "gameName": "Astralis",
+      "gameId": "1523612354",
+      "amount": "$85.50"
+    },
+    {
+      "id": "15329",
+      "date": "15.06.2024",
+      "status": "pending",
+      "gameName": "Chronicles",
+      "gameId": "1523654789",
+      "amount": "$199.99"
+    },
+    {
+      "id": "15330",
+      "date": "16.06.2024",
+      "status": "success",
+      "gameName": "Odyssey",
+      "gameId": "1523678954",
+      "amount": "$65.75"
+    },
+    {
+      "id": "15331",
+      "date": "17.06.2024",
+      "status": "success",
+      "gameName": "Ernardd",
+      "gameId": "1523523623",
+      "amount": "$12.99"
+    },
+    {
+      "id": "15332",
+      "date": "18.06.2024",
+      "status": "refunded",
+      "gameName": "Valoria",
+      "gameId": "1523598745",
+      "amount": "$29.99"
+    },
+    {
+      "id": "15333",
+      "date": "19.06.2024",
+      "status": "success",
+      "gameName": "Legends",
+      "gameId": "1523789456",
+      "amount": "$120.00"
+    },
+    {
+      "id": "15334",
+      "date": "20.06.2024",
+      "status": "success",
+      "gameName": "Skyforge",
+      "gameId": "1523587421",
+      "amount": "$35.50"
+    }
+  ]
+}
