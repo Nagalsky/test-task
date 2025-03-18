@@ -7,28 +7,28 @@ import { Separator } from "../ui/separator";
 import { OrderStatus } from "./order-status";
 
 type Props = {
-  data: OrderType;
+  order: OrderType;
   className?: string;
 };
 
-export const Order: FC<Props> = ({ data, className }) => {
+export const Order: FC<Props> = ({ order, className }) => {
   return (
     <Card className={cn(className)}>
       <CardContent>
         <div className="grid grid-cols-3 gap-4">
           <div>
             <p className="opacity-50">Transaction ID</p>
-            <p>#{data.id}</p>
+            <p>#{order.id}</p>
           </div>
           <div>
             <p className="opacity-50">Date</p>
-            <p>{data.date}</p>
+            <p>{order.date}</p>
           </div>
           <div>
             <p className="opacity-50">Status</p>
             <div className="flex items-center gap-1">
-              <OrderStatus status={data.status} />
-              <p className="capitalize">{data.status}</p>
+              <OrderStatus status={order.status} />
+              <p className="capitalize">{order.status}</p>
             </div>
           </div>
         </div>
@@ -36,15 +36,15 @@ export const Order: FC<Props> = ({ data, className }) => {
         <div className="grid grid-cols-3 gap-4">
           <div>
             <p className="opacity-50">Game Name</p>
-            <p>{data.gameName}</p>
+            <p>{order.gameName}</p>
           </div>
           <div>
             <p className="opacity-50">Game ID</p>
-            <p>{data.gameId}</p>
+            <p>{order.gameId}</p>
           </div>
           <div>
             <p className="opacity-50">Ammount</p>
-            <p>{data.amount}</p>
+            <p>{order.amount}</p>
           </div>
         </div>
       </CardContent>

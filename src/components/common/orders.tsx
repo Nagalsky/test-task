@@ -27,7 +27,7 @@ export const Orders: FC<Props> = ({ orders, className }) => {
         >
           <Link href={`/order/${order.id}`} className="block">
             <Order
-              data={order}
+              order={order}
               className="md:transition md:duration-400 md:hover:scale-[103%]"
             />
           </Link>

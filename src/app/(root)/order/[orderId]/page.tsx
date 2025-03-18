@@ -31,7 +31,7 @@ export default async function OrderPage({ params }: Props) {
             <p className="text-xl font-bold">#{order?.id}</p>
           </div>
 
-          <Order data={order} />
+          <Order order={order} />
 
           <div className="flex items-center justify-between gap-3">
             <h2 className="text-base">Your Goods:</h2>
