@@ -57,8 +57,8 @@ export const SignInForm: FC<Props> = ({ className }) => {
     <div className={cn("space-y-6", className)}>
       <div className="flex items-start justify-between gap-5">
         <div className="flex grow gap-2 rounded-lg bg-[#3b3e44] p-1">
-          <Button className="grow">Login</Button>
-          <Button variant={"ghost"} className="grow" asChild>
+          <Button className="flex-1">Login</Button>
+          <Button variant={"ghost"} className="flex-1" asChild>
             <Link href="/sign-up">Registration</Link>
           </Button>
         </div>

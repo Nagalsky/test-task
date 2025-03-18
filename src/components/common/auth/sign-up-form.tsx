@@ -59,10 +59,10 @@ export const SignUpForm: FC<Props> = ({ className }) => {
     <div className={cn("space-y-6", className)}>
       <div className="flex items-start justify-between gap-5">
         <div className="flex grow gap-2 rounded-lg bg-[#3b3e44] p-1">
-          <Button variant={"ghost"} className="grow" asChild>
+          <Button variant={"ghost"} className="flex-1" asChild>
             <Link href="/sign-in">Login</Link>
           </Button>
-          <Button className="grow">Registration</Button>
+          <Button className="flex-1">Registration</Button>
         </div>
         <Button size="icon" className="size-6 p-0" asChild>
           <Link href="/">
