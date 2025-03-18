@@ -2,6 +2,7 @@
 import { cn } from "@/lib/utils";
 import { Order as OrderType } from "@/types/order.type";
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { FC } from "react";
 import { Order } from "./order";
 
@@ -24,10 +25,12 @@ export const Orders: FC<Props> = ({ orders, className }) => {
             delay: index * 0.05,
           }}
         >
-          <Order
-            data={order}
-            className="md:transition md:duration-400 md:hover:scale-[103%]"
-          />
+          <Link href={`/order/${order.id}`} className="block">
+            <Order
+              data={order}
+              className="md:transition md:duration-400 md:hover:scale-[103%]"
+            />
+          </Link>
         </motion.div>
       ))}
     </div>
