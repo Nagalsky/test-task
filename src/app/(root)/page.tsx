@@ -15,7 +15,9 @@ export default function HomePage() {
             </Button>
           </div>
           <Button className="w-full font-bold" asChild>
-            <Link href={"/orders"}>Orders</Link>
+            <Link href={"/orders"} prefetch={false}>
+              Orders
+            </Link>
           </Button>
         </div>
       </div>
